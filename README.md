@@ -1,8 +1,6 @@
-# mkdocs-example with django
+# Kenload v2 user manual
 
-## The docs has been customized with django but can still be run as standalone
-
-### Follow the steps bellow to run as standalone in windows enviroment
+### Set UP
 
 - Steps
 
