@@ -3,7 +3,7 @@ site_url: http://127.0.0.1:8000/
 docs_dir: "docs"
 site_author: Titus Owuor
 site_favicon: kenha-logo.png
-site_dir: "docs/static/mkdocs_build"
+site_dir: "kenloadv2_user_manual"
 repo_url: https://github.com/titusowuor30/kenloadv2_user_manual.git
 copyright: Copyright &copy; 2022 Kenya National Highways Authority (KENHA) Powered by Masterspace Solutions Ltd. All rights reserved.
 google_analytics: ["UA-36723568-3", "mkdocs.org"]
