@@ -1,0 +1,79 @@
+site_name: Kenload v2.0.0 Manual
+site_url: http://localhost:8000/
+docs_dir: "docs"
+site_author: Titus Owuor
+site_favicon: kenha-logo.png
+site_dir: "docs/static/mkdocs_build"
+repo_url: https://github.com/titusowuor30/
+copyright: Copyright &copy; 2022 Kenya National Highways Authority (KENHA) Powered by Masterspace Solutions Ltd. All rights reserved.
+google_analytics: ["UA-36723568-3", "mkdocs.org"]
+
+theme:
+  name: material
+  logo: assets/kenha-logo.png
+nav:
+  - Introduction:
+      - Welcome: intro/index.md
+      - Abbreviations: intro/abbreviations.md
+  - Getting Started:
+      - System requirements: getting_started/system_requirements.md
+      - Getting helpd: getting_started/get_help.md
+      - About kenload v2: getting_started/about.md
+  - Licence:
+      - Licence Agreement: licence.md
+  - Installation:
+      - How to install kenload v2: install/install.md
+      - Set Up installation: install/setup_install.md
+  - Starting Kenload v2:
+      - Opening Kenload v2: start/open_kenload.md
+      - Log In: start/login-kenload.md
+  - The main screen:
+      - Main Screen Overview: main_screen/main_screen_overview.md
+  - Weigh:
+      - Multideck: weigh/multi_deck.md
+      - LSWIM: weigh/lswim.md
+      - HSWIM: weigh/hswim.md
+      - Weigh Bridge Tickets: weigh/wb_tickets.md
+      - Weighing Events: weigh/weigh_events.md
+      - ANPR Asist: weigh/anpr_assist.md
+
+  - Security:
+      - Users: security/user.md
+      - Change Password: security/change_pass
+      - Roles: security/roles.md
+      - Back Up: security/backup.md
+      - Password Policy: security/pass_policy.md
+  - Cencus:
+      - cencus: cencus/cencus.md
+  - Prosecution:
+      - Prosecuting: prosecute/prosecute.md
+  - Vehicle Inspection:
+      - Wide Load Inspection: inspection/wideload.md
+  - Special Release:
+      - Special Release: release/sp_release.md
+  - Data:
+      - Transporter: data/transporter.md
+      - Cargo: data/cargo.md
+      - Shifts: data/shifts.md
+      - Road Authority: data/road_authority.md
+  - Reports:
+      - Reporting: report/reporting.md
+  - System Settings:
+      - Add Equipment: sys_settings/add_equipment.md
+      - Health Check: sys_settings/health_check.md
+  - Technical:
+      -Technical: tech/technical.md
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
+extra:
+  social:
+    - icon: fontawesome/brands/slack
+      link: https://slack.com/@titus
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/@titus
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/@titus
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@titus
