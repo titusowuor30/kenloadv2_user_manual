@@ -24,7 +24,7 @@ git clone https://github.com/titusowuor30/kenloadv2_user_manual.git
 #### move into the project directory
 
 ```shell
-cd mkdocs-example
+cd kenloadv2_user_manual
 ```
 
 #### install requirements
