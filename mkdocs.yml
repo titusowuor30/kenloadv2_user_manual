@@ -4,7 +4,7 @@ docs_dir: "docs"
 site_author: Titus Owuor
 site_favicon: kenha-logo.png
 site_dir: "docs/static/mkdocs_build"
-repo_url: https://github.com/titusowuor30/
+repo_url: https://github.com/titusowuor30/kenloadv2_user_manual.git
 copyright: Copyright &copy; 2022 Kenya National Highways Authority (KENHA) Powered by Masterspace Solutions Ltd. All rights reserved.
 google_analytics: ["UA-36723568-3", "mkdocs.org"]
 
@@ -17,7 +17,7 @@ nav:
       - Abbreviations: intro/abbreviations.md
   - Getting Started:
       - System requirements: getting_started/system_requirements.md
-      - Getting helpd: getting_started/get_help.md
+      - Getting help: getting_started/get_help.md
       - About kenload v2: getting_started/about.md
   - Licence:
       - Licence Agreement: licence.md
