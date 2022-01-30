@@ -1,5 +1,5 @@
-site_name: Kenload v2.0.0 Manual
-site_url: http://localhost:8000/
+site_name: KENLOAD V2.0.0 USER MANUAL
+site_url: http://127.0.0.1:8000/
 docs_dir: "docs"
 site_author: Titus Owuor
 site_favicon: kenha-logo.png
@@ -13,7 +13,7 @@ theme:
   logo: assets/kenha-logo.png
 nav:
   - Introduction:
-      - Welcome: intro/index.md
+      - Welcome: index.md
       - Abbreviations: intro/abbreviations.md
   - Getting Started:
       - System requirements: getting_started/system_requirements.md
