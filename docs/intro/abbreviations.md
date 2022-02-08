@@ -7,3 +7,7 @@
 - WBT- Weighbridge Ticket
 - GVW - Gross Vehicle Weight
 - LSWIM - Low Speed Weighing In Motion
+- SA - System Admin
+- GA - General Assistant
+- DM - Duty Manager
+- COW - Computer Operator

@@ -8,9 +8,52 @@ repo_url: https://github.com/titusowuor30/kenloadv2_user_manual.git
 copyright: Copyright &copy; 2022 Kenya National Highways Authority (KENHA) Powered by Masterspace Solutions Ltd. All rights reserved.
 google_analytics: ["UA-36723568-3", "mkdocs.org"]
 
+#plugins:
+#- with-pdf:
+#author: WHO
+#copyright: ANY TEXT
+#
+#cover: false
+#back_cover: true
+#cover_title: TITLE TEXT
+#cover_subtitle: SUBTITLE TEXT
+#custom_template_path: TEMPLATES PATH
+#
+#toc_title: TOC TITLE TEXT
+#heading_shift: false
+#toc_level: 3
+#ordered_chapter_level: 2
+#excludes_children:
+#    - 'release-notes/:upgrading'
+#    - 'release-notes/:changelog'
+#
+#exclude_pages:
+#    - 'bugs/'
+#    - 'appendix/contribute/'
+#convert_iframe:
+#    - src: IFRAME SRC
+#      img: POSTER IMAGE URL
+#      text: ALTERNATE TEXT
+#    - src: ...
+#two_columns_level: 3
+#
+#render_js: true
+#headless_chrome_path: headless-chromium
+#
+#output_path: any-place/document.pdf
+#enabled_if_env: ENABLE_PDF_EXPORT
+#
+#debug_html: true
+#show_anchors: true
+#verbose: true
+
 theme:
   name: material
   logo: assets/kenha-logo.png
+  features:
+    - navigation.instant
+    - navigation.tracking
+
 nav:
   - Introduction:
       - Welcome: index.md
@@ -25,22 +68,28 @@ nav:
       - How to install kenload v2: install/install.md
       - Set Up installation: install/setup_install.md
   - Starting Kenload v2:
-      - Opening Kenload v2: start/open_kenload.md
-      - Log In: start/login-kenload.md
+      - Opening Kenload v2: getting_started/open_kenload.md
+      - Log In: getting_started/login.md
   - The main screen:
-      - Main Screen Overview: main_screen/main_screen_overview.md
+      - Main Screen Overview: intro/main_screen.md
   - Weigh:
-      - Multideck: weigh/multi_deck.md
+      - Multideck: weigh/multideck.md
       - LSWIM: weigh/lswim.md
       - HSWIM: weigh/hswim.md
+      - Tags: weigh/tags.md
       - Weigh Bridge Tickets: weigh/wb_tickets.md
-      - Weighing Events: weigh/weigh_events.md
-      - ANPR Asist: weigh/anpr_assist.md
+      - Scale Test: weigh/scale_test.md
+      - Audit Events: weigh/audit_events.md
+      - Manual Weighing: weigh/manual_weighing.md
+      - Yard List: weigh/yardlist.md
+      - Set Allowable Tolerance: weigh/set_tolerance.md
+      - ANPR Asist: weigh/anprassist.md
 
   - Security:
       - Users: security/user.md
-      - Change Password: security/change_pass
+      - Change Password: security/change_pass.md
       - Roles: security/roles.md
+      - Audit logs: security/auditlogs.md
       - Back Up: security/backup.md
       - Password Policy: security/pass_policy.md
   - Cencus:
@@ -49,16 +98,25 @@ nav:
       - Prosecuting: prosecute/prosecute.md
   - Vehicle Inspection:
       - Wide Load Inspection: inspection/wideload.md
+      - Yard Vehicle Inspection: inspection/yard.md
   - Special Release:
-      - Special Release: release/sp_release.md
-  - Data:
-      - Transporter: data/transporter.md
-      - Cargo: data/cargo.md
-      - Shifts: data/shifts.md
-      - Road Authority: data/road_authority.md
+      - Special Release: special_release/special_release.md
+      - Yard List: special_release/yard_list.md
+  - setup:
+      - Transporter: setup/transporter.md
+      - Cargo: setup/cargo.md
+      - Shifts: setup/shifts.md
+      - Road Authority: setup/road_authority.md
+      - Axle Configuration: setup/axle_config.md
+      - Origin & Destination: setup/origin_dest.md
+      - Drivers: setup/driver.md
+      - Routes: setup/routes.md
+      - Cluster Weigh Bridge: setup/cluster_wb.md
+      - Vehicles: setup/vehicles.md
+      - Dollar Rate: setup/dollar_rate.md
   - Reports:
       - Reporting: report/reporting.md
-  - System Settings:
+  - Settings:
       - Add Equipment: sys_settings/add_equipment.md
       - Health Check: sys_settings/health_check.md
   - Technical:
@@ -69,11 +127,11 @@ markdown_extensions:
 
 extra:
   social:
+    - icon: fontawesome/brands/youtube
+      link: https://youtu.be/OFSTPuk4ncA
     - icon: fontawesome/brands/slack
-      link: https://slack.com/@titus
+      link: https://kenloadv2upgrade.slack.com
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/@titus
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/@titus
-    - icon: fontawesome/brands/youtube
-      link: https://youtube.com/@titus
