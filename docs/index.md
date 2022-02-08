@@ -2,7 +2,8 @@
 
 <div style="flex">
 <img src="./assets/images/kenload.png" style="margin:opx;" width="250" height="250" />
-<img src="./assets/images/weigh-bridge.jpg" style="margin:auto;" width="150" height="150" />
+<img src="./assets/images/scale.jpg" style="margin:auto;" width="150" height="150" />
+<img src="./assets/images/on_deck.jpg" style="margin:auto;" width="150" height="150" />
 </div>
 <h2><b>Introduction</b></h2>
 

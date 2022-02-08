@@ -93,7 +93,7 @@ nav:
       - Back Up: security/backup.md
       - Password Policy: security/pass_policy.md
   - Cencus:
-      - cencus: cencus/cencus.md
+      - cencus: Cencus/cencus.md
   - Prosecution:
       - Prosecuting: prosecute/prosecute.md
   - Vehicle Inspection:
@@ -117,10 +117,12 @@ nav:
   - Reports:
       - Reporting: report/reporting.md
   - Settings:
-      - Add Equipment: sys_settings/add_equipment.md
-      - Health Check: sys_settings/health_check.md
+      - Prosecution Setting: settings/prosecution_setting.md
+      - Permit Setting: settings/permit_setting.md
+      - System Setting: settings/system_setting.md
   - Technical:
-      -Technical: tech/technical.md
+      - Health Check: tech/health_check.md
+      - Callibration Certificate: tech/callib_cert.md
 markdown_extensions:
   - attr_list
   - md_in_html

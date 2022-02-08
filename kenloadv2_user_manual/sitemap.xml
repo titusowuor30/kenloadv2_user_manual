@@ -2,222 +2,272 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>http://127.0.0.1:8000/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/extra_css/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/extra_javascript/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/licence/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://127.0.0.1:8000/Cencus/cencus/</loc>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/getting_started/about/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/getting_started/get_help/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/getting_started/login/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/getting_started/open_kenload/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/getting_started/system_requirements/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/inspection/wideload/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/inspection/yard/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://127.0.0.1:8000/install/install/</loc>
+         <lastmod>2022-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://127.0.0.1:8000/install/setup_install/</loc>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/intro/abbreviations/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/intro/main_screen/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://127.0.0.1:8000/prosecute/prosecute/</loc>
+         <lastmod>2022-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://127.0.0.1:8000/report/reporting/</loc>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/security/auditlogs/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/security/backup/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/security/change_pass/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/security/pass_policy/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/security/roles/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/security/user/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://127.0.0.1:8000/settings/permit_setting/</loc>
+         <lastmod>2022-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://127.0.0.1:8000/settings/prosecution_setting/</loc>
+         <lastmod>2022-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://127.0.0.1:8000/settings/system_setting/</loc>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/setup/axle_config/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/setup/cargo/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/setup/cluster_wb/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/setup/dollar_rate/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/setup/driver/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/setup/origin_dest/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/setup/road_authority/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/setup/routes/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/setup/screens/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/setup/shifts/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/setup/transporter/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/setup/vehicles/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/special_release/special_release/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/special_release/yard_list/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://127.0.0.1:8000/tech/callib_cert/</loc>
+         <lastmod>2022-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://127.0.0.1:8000/tech/health_check/</loc>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/weigh/anprassist/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/weigh/audit_events/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/weigh/hswim/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/weigh/lswim/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/weigh/manual_weighing/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/weigh/multideck/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/weigh/scale_test/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/weigh/set_tolerance/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/weigh/tags/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/weigh/wb_tickets/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/weigh/yardlist/</loc>
-         <lastmod>2022-02-07</lastmod>
+         <lastmod>2022-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
