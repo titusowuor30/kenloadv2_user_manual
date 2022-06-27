@@ -54,6 +54,7 @@ theme:
     - navigation.instant
     - navigation.tracking
 
+#Nav Bar
 nav:
   - 1.0 INTRODUCTION:
       - 1.1 Purpose and scope: index.md
