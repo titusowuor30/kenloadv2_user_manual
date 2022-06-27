@@ -8,44 +8,44 @@ repo_url: https://github.com/titusowuor30/kenloadv2_user_manual.git
 copyright: Copyright &copy; 2022 Kenya National Highways Authority (KENHA) Powered by Masterspace Solutions Ltd. All rights reserved.
 google_analytics: ["UA-36723568-3", "mkdocs.org"]
 
-#plugins:
-#- with-pdf:
-#author: WHO
-#copyright: ANY TEXT
-#
-#cover: false
-#back_cover: true
-#cover_title: TITLE TEXT
-#cover_subtitle: SUBTITLE TEXT
-#custom_template_path: TEMPLATES PATH
-#
-#toc_title: TOC TITLE TEXT
-#heading_shift: false
-#toc_level: 3
-#ordered_chapter_level: 2
-#excludes_children:
-#    - 'release-notes/:upgrading'
-#    - 'release-notes/:changelog'
-#
-#exclude_pages:
-#    - 'bugs/'
-#    - 'appendix/contribute/'
-#convert_iframe:
-#    - src: IFRAME SRC
-#      img: POSTER IMAGE URL
-#      text: ALTERNATE TEXT
-#    - src: ...
-#two_columns_level: 3
-#
-#render_js: true
-#headless_chrome_path: headless-chromium
-#
-#output_path: any-place/document.pdf
-#enabled_if_env: ENABLE_PDF_EXPORT
-#
-#debug_html: true
-#show_anchors: true
-#verbose: true
+# plugins:
+#   - with-pdf:
+#       author: Masterspace Solutions Ltd.
+#       copyright: "Kenload v2 @2022"
+
+#       cover: true
+#       back_cover: true
+#       cover_title: KENLOAD V2.0.0 USER MANUAL
+#       cover_subtitle: HELP DOCS
+#       custom_template_path: "docs"
+
+#       toc_title: Kenload V2 user manual
+#       heading_shift: false
+#       toc_level: 3
+#       ordered_chapter_level: 2
+#       excludes_children:
+#         - "release-notes/:upgrading"
+#         - "release-notes/:changelog"
+
+#       # exclude_pages:
+#       # - 'bugs/'
+#       # - 'appendix/contribute/'
+#       # convert_iframe:
+#       # - src: IFRAME SRC
+#       #     img: ./docs/assets/kenload.png
+#       #     text: "kenloadv2"
+#       # - src: ...
+#       # two_columns_level: 3
+
+#     #   render_js: true
+#     #   headless_chrome_path: headless-chromium
+
+#     #   output_path: ./generateddocs/document.pdf
+#     #   #enabled_if_env: ENABLE_PDF_EXPORT
+
+#     #   debug_html: true
+#     #   show_anchors: true
+#     #   verbose: true
 
 theme:
   name: material
@@ -55,74 +55,91 @@ theme:
     - navigation.tracking
 
 nav:
-  - Introduction:
-      - Welcome: index.md
-      - Abbreviations: intro/abbreviations.md
-  - Getting Started:
-      - System requirements: getting_started/system_requirements.md
-      - Getting help: getting_started/get_help.md
-      - About kenload v2: getting_started/about.md
-  - Licence:
-      - Licence Agreement: licence.md
-  - Installation:
-      - How to install kenload v2: install/install.md
-      - Set Up installation: install/setup_install.md
-  - Starting Kenload v2:
-      - Opening Kenload v2: getting_started/open_kenload.md
-      - Log In: getting_started/login.md
-  - The main screen:
-      - Main Screen Overview: intro/main_screen.md
-  - Weigh:
-      - Multideck: weigh/multideck.md
-      - LSWIM: weigh/lswim.md
-      - HSWIM: weigh/hswim.md
-      - Tags: weigh/tags.md
-      - Weigh Bridge Tickets: weigh/wb_tickets.md
-      - Scale Test: weigh/scale_test.md
-      - Audit Events: weigh/audit_events.md
-      - Manual Weighing: weigh/manual_weighing.md
-      - Yard List: weigh/yardlist.md
-      - Set Allowable Tolerance: weigh/set_tolerance.md
-      - ANPR Asist: weigh/anprassist.md
+  - 1.0 INTRODUCTION:
+      - 1.1 Purpose and scope: index.md
+      - 1.2 Organization: intro/organization.md
+      - 1.3 Points of Contract: intro/contract.md
+      - 1.4 References: intro/references.md
+      - 1.5 Primary Functions: intro/core_modules.md
+  - 2.0 APPLICATIONS CAPABILITIES:
+      - 2.1 Purpose: application_capabilities/index.md
+      - 2.2 General Description: application_capabilities/index.md
+      - 2.3 License:  licence.md
+      - 2.4 License Agreement: licence.md
 
-  - Security:
-      - Users: security/user.md
-      - Change Password: security/change_pass.md
-      - Roles: security/roles.md
-      - Audit logs: security/auditlogs.md
-      - Back Up: security/backup.md
-      - Password Policy: security/pass_policy.md
-  - Cencus:
-      - cencus: Cencus/cencus.md
-  - Prosecution:
-      - Prosecuting: prosecute/prosecute.md
-  - Vehicle Inspection:
-      - Wide Load Inspection: inspection/wideload.md
-      - Yard Vehicle Inspection: inspection/yard.md
-  - Special Release:
-      - Special Release: special_release/special_release.md
-      - Yard List: special_release/yard_list.md
-  - setup:
-      - Transporter: setup/transporter.md
-      - Cargo: setup/cargo.md
-      - Shifts: setup/shifts.md
-      - Road Authority: setup/road_authority.md
-      - Axle Configuration: setup/axle_config.md
-      - Origin & Destination: setup/origin_dest.md
-      - Drivers: setup/driver.md
-      - Routes: setup/routes.md
-      - Cluster Weigh Bridge: setup/cluster_wb.md
-      - Vehicles: setup/vehicles.md
-      - Dollar Rate: setup/dollar_rate.md
-  - Reports:
-      - Reporting: report/reporting.md
-  - Settings:
-      - Prosecution Setting: settings/prosecution_setting.md
-      - Permit Setting: settings/permit_setting.md
-      - System Setting: settings/system_setting.md
-  - Technical:
-      - Health Check: tech/health_check.md
-      - Callibration Certificate: tech/callib_cert.md
+  - 3.0 DESCRIPTION OF APPLICATIONS FUNCTIONS:
+      - 3.1 Tittle: application_capabilities/index.md
+      - 3.2 Functions Description: application_capabilities/index.md
+      - 3.3 Functions Inputs Preparation:  application_capabilities/index.md
+      - 3.4 Results of Functions:  application_capabilities/index.md
+  - 4.0 OPERATING INSTRUCTIONS:
+      - 4.1 Initiate and Maintain Operations:
+          - Getting Started:
+              - System requirements: getting_started/system_requirements.md
+              - About kenload v2: getting_started/about.md
+          - Installation:
+              - How to install kenload v2: install/install.md
+              - Set Up installation: install/setup_install.md
+          - Starting Kenload v2:
+              - Opening Kenload v2: getting_started/open_kenload.md
+              - Log In: getting_started/login.md
+          - Main Screen:
+              - Main Screen Overview: intro/main_screen.md
+          - Weigh:
+              - Multideck: weigh/multideck.md
+              - LSWIM: weigh/lswim.md
+              - HSWIM: weigh/hswim.md
+              - Tags: weigh/tags.md
+              - Weigh Bridge Tickets: weigh/wb_tickets.md
+              - Scale Test: weigh/scale_test.md
+              - Audit Events: weigh/audit_events.md
+              - Manual Weighing: weigh/manual_weighing.md
+              - Yard List: weigh/yardlist.md
+              - Set Allowable Tolerance: weigh/set_tolerance.md
+              - ANPR Asist: weigh/anprassist.md
+          - Cencus:
+              - cencus: Cencus/cencus.md
+          - Prosecution:
+              - Prosecuting: prosecute/prosecute.md
+          - Vehicle Inspection:
+              - Wide Load Inspection: inspection/wideload.md
+              - Yard Vehicle Inspection: inspection/yard.md
+          - Special Release:
+              - Special Release: special_release/special_release.md
+              - Yard List: special_release/yard_list.md    
+      - 4.2 Systems Administration:
+          - Security:
+              - Users: security/user.md
+              - Change Password: security/change_pass.md
+              - Roles: security/roles.md
+              - Audit logs: security/auditlogs.md
+              - Back Up: security/backup.md
+              - Password Policy: security/pass_policy.md
+          - setup:
+              - Transporter: setup/transporter.md
+              - Cargo: setup/cargo.md
+              - Shifts: setup/shifts.md
+              - Road Authority: setup/road_authority.md
+              - Axle Configuration: setup/axle_config.md
+              - Origin & Destination: setup/origin_dest.md
+              - Drivers: setup/driver.md
+              - Routes: setup/routes.md
+              - Cluster Weigh Bridge: setup/cluster_wb.md
+              - Vehicles: setup/vehicles.md
+              - Dollar Rate: setup/dollar_rate.md
+          - Reports:
+              - Reporting: report/reporting.md
+          - Settings:
+              - Prosecution Setting: settings/prosecution_setting.md
+              - Permit Setting: settings/permit_setting.md
+              - System Setting: settings/system_setting.md
+          - Technical:
+              - Health Check: tech/health_check.md
+              - Callibration Certificate: tech/callib_cert.md
+  - 5.05.0 ERROR HANDLING:
+    - 5.1 Helpdesk Facility: getting_started/get_help.md  
+    - 5.2Glossary: intro/abbreviations.md   
+    - 5.3 Abbreviations: intro/abbreviations.md          
 markdown_extensions:
   - attr_list
   - md_in_html
