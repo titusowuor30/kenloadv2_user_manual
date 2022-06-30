@@ -137,7 +137,7 @@ nav:
           - Technical:
               - Health Check: tech/health_check.md
               - Callibration Certificate: tech/callib_cert.md
-  - 5.05.0 ERROR HANDLING:
+  - 5.0 ERROR HANDLING:
     - 5.1 Helpdesk Facility: getting_started/get_help.md  
     - 5.2Glossary: intro/abbreviations.md   
     - 5.3 Abbreviations: intro/abbreviations.md          
