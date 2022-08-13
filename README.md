@@ -4,7 +4,7 @@
 
 - Steps
 
-#### Install python and create a viryual enviroment
+#### Install python and create a virtual enviroment
 
 ```shell
 #install virtualenv
