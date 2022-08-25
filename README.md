@@ -2,7 +2,7 @@
 
 # [KENYA NATIONAL HIGHWAYS AUTHORITY](https://kenha.co.ke)
 
->> [Docs Link](https://kenloadv2helpdocs.masterspace.co.ke)
+> [Docs Link](https://kenloadv2helpdocs.masterspace.co.ke)
 ## Weighbridge & Axle Load Management Software(Kenload) v2 User Manual
 
 ### Set UP
