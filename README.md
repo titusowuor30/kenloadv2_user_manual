@@ -1,5 +1,7 @@
-<img src="../assets/images/kenload.png" style="margin:opx;" width="250" height="250" />
+<img src="/docs/assets/images/kenload.png" style="margin:opx;" width="250" height="250" />
+
 # [KENYA NATIONAL HIGHWAYS AUTHORITY](https://kenha.co.ke)
+
 >> [Docs Link](https://kenloadv2helpdocs.masterspace.co.ke)
 ## Weighbridge & Axle Load Management Software(Kenload) v2 User Manual
 
