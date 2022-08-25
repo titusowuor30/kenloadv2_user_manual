@@ -1,4 +1,4 @@
-<img src="./docs/assets/images/kenload.png" style="margin:opx;" width="250" height="250" />
+<img src="./docs/assets/images/kenha-logo.png" style="margin:opx;" width="250" height="250" />
 
 # [KENYA NATIONAL HIGHWAYS AUTHORITY](https://kenha.co.ke)
 
